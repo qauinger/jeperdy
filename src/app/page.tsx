@@ -36,10 +36,10 @@ export default function Home() {
 			Jeperdy!
 		</div>
 	    <div className='menu-item'>
-            <a href='/units1to7'>Physics Units 1-7</a>
+            <a href='https://qauinger.com/jeperdy/units1to7'>Physics Units 1-7</a>
         </div>
         <div className='menu-item'>
-        <a href='/units8to14'>Physics Units 8-14</a>
+        <a href='https://qauinger.com/jeperdy/units8to14'>Physics Units 8-14</a>
         </div>
     </div>
   )
