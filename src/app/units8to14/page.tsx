@@ -95,10 +95,10 @@ export default function Home() {
 			<div id='b3' className='tile' onClick={(event) => showQuestion('b3', <>In the right hand rule the thumb points in the direction of current and the fingers curl in the direction of the ________ _____ </>, <>Magnetic field</>)}>
 				<div className='question-value'><span className='dollar'>$</span>400</div>
 			</div>
-			<div id='b4' className='tile' onClick={(event) => showQuestion('b4', <>The maximum distance that the particles of a wave's medium vibrate from their rest position is called the...</>, <>Amplitude</>)}>
+			<div id='b4' className='tile' onClick={(event) => showQuestion('b4', <>The maximum distance that the particles of a wave&apos;s medium vibrate from their rest position is called the...</>, <>Amplitude</>)}>
 				<div className='question-value'><span className='dollar'>$</span>400</div>
 			</div>
-			<div id='b5' className='tile' onClick={(event) => showQuestion('b5', <>When a light wave enters a new medium and is refracted, there must be a change in the light wave's...</>, <>Speed</>)}>
+			<div id='b5' className='tile' onClick={(event) => showQuestion('b5', <>When a light wave enters a new medium and is refracted, there must be a change in the light wave&apos;s...</>, <>Speed</>)}>
 				<div className='question-value'><span className='dollar'>$</span>400</div>
 			</div>
 			<div id='b6' className='tile' onClick={(event) => showQuestion('b6', <>What does the photoeletric effect prove?</>, <>The particle nature of light.</>)}>

@@ -69,7 +69,7 @@ export default function Home() {
 			<div id='a2' className='tile' onClick={(event) => showQuestion('a2', <>What is the equation for velocity?</>, <>v=<sup>d</sup>/<sub>t</sub></>)}>
 				<div className='question-value'><span className='dollar'>$</span>200</div>
 			</div>
-			<div id='a3' className='tile' onClick={(event) => showQuestion('a3', <>Newton's first Law states an object in motion will ____ in motion unless acted on by an outside force.</>, <>Stay</>)}>
+			<div id='a3' className='tile' onClick={(event) => showQuestion('a3', <>Newton&apos;s first Law states an object in motion will ____ in motion unless acted on by an outside force.</>, <>Stay</>)}>
 				<div className='question-value'><span className='dollar'>$</span>200</div>
 			</div>
 			<div id='a4' className='tile' onClick={(event) => showQuestion('a4', <>If a women runs 100 meters north and then 70 meters south, what will her total displacment be?</>, <>30 meters north</>)}>
@@ -118,7 +118,7 @@ export default function Home() {
 			<div id='c3' className='tile' onClick={(event) => showQuestion('c3', <>A vertical spring 0.100 meters long is elongated to a length of 0.119 meters when a 1.00 kilogram mass is attached to the bottom of the spring. What is the spring constant?</>, <>516 N/m</>)}>
 				<div className='question-value'><span className='dollar'>$</span>600</div>
 			</div>
-			<div id='c4' className='tile' onClick={(event) => showQuestion('c4', <>A ball is kicked with an initial velocity of 10 m/s at an angle of 30<sup>o</sup> above the horizontal. The horizontal component of the ball's initial velocity is...</>, <>8.7 m/s</>)}>
+			<div id='c4' className='tile' onClick={(event) => showQuestion('c4', <>A ball is kicked with an initial velocity of 10 m/s at an angle of 30<sup>o</sup> above the horizontal. The horizontal component of the ball&apos;s initial velocity is...</>, <>8.7 m/s</>)}>
 				<div className='question-value'><span className='dollar'>$</span>600</div>
 			</div>
 			<div id='c5' className='tile' onClick={(event) => showQuestion('c5', <>A 5.0 kilogram object travels clockwise in a horizontal circle with a speed of 20 m/s. The radius of the circular path is 25 meters. What is the centripetal force on the object?</>, <>80 Newtons</>)}>
@@ -127,7 +127,7 @@ export default function Home() {
 			<div id='c6' className='tile' onClick={(event) => showQuestion('c6', <>A car has a mass of 1.0 x 10<sup>3</sup> kilograms with a speed of 1.4 x 10<sup>2</sup> meters per second. What is the impulse required to bring the car to rest?</>, <>1.4 x 10<sup>5</sup> N•s</>)}>
 				<div className='question-value'><span className='dollar'>$</span>600</div>
 			</div>
-			<div id='c7' className='tile' onClick={(event) => showQuestion('c7', <>A 0.50 kg ball is projected vertically and rises to a height of 2.0 meters above the ground. Calculate the increase in the ball's potential energy.</>, <>9.8 Joules</>)}>
+			<div id='c7' className='tile' onClick={(event) => showQuestion('c7', <>A 0.50 kg ball is projected vertically and rises to a height of 2.0 meters above the ground. Calculate the increase in the ball&apos;s potential energy.</>, <>9.8 Joules</>)}>
 				<div className='question-value'><span className='dollar'>$</span>600</div>
 			</div>
 		</div>
