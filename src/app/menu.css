@@ -1,0 +1,47 @@
+:root {
+    --yellow: #EBBE00;
+    --blue: #00003D;
+    --gray: #191919;
+}
+
+@font-face {
+    font-family: titleFont;
+    src: url(jeperdy.ttf);
+}
+
+@font-face {
+    font-family: questionFont;
+    src: url(itc_korinna.ttf);
+}
+
+@font-face {
+    font-family: scoreFont;
+    src: url(swiss_911.ttf);
+}
+
+@font-face {
+    font-family: categoryFont;
+    src: url(swiss_921.otf);
+}
+
+html, body {
+    background-color: var(--blue);
+    margin: 5vw;
+    color: var(--yellow);
+    font-family: categoryFont;
+}
+
+#title {
+    font-family: titleFont;
+    font-size: 10vw;
+    text-align: center;
+    padding-bottom: 3vw;
+}
+
+.menu-item, .menu-item a {
+    font-family: categoryFont;
+    color: var(--yellow);
+    font-size: 4vw;
+    text-align: center;
+    padding: 20px;
+}

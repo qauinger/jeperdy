@@ -1,0 +1,159 @@
+:root {
+    --yellow: #EBBE00;
+    --blue: #00003D;
+    --gray: rgb(31, 30, 34);
+}
+
+@font-face {
+    font-family: titleFont;
+    src: url(jeperdy.ttf);
+}
+
+@font-face {
+    font-family: questionFont;
+    src: url(itc_korinna.ttf);
+}
+
+@font-face {
+    font-family: scoreFont;
+    src: url(swiss_911.ttf);
+}
+
+@font-face {
+    font-family: categoryFont;
+    src: url(swiss_921.otf);
+}
+
+html, body {
+    background-color: black;
+    overflow: hidden;
+    margin: none;
+    padding: none;
+}
+
+.board {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.board .row {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+}
+
+.board .row .tile {
+    top: 0;
+    bottom: 0;
+    flex: 1;
+    width: 100%;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    font-family: impact;
+    background-color: var(--blue);
+    border: 3px solid #000;
+    font-family: categoryFont;
+    text-align: center;
+}
+
+.board .row .question-value {
+    color: var(--yellow);
+    background-color: var(--blue);
+    font-family: scoreFont;
+    display: block;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.board .row .tile.active .question-value {
+    display: none;
+}
+
+#window {
+    background-color: var(--blue);
+    border-width: 0;
+    font-size: 72px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 5;
+    color: var(--yellow);
+    font-family: questionFont;
+    
+}
+
+#window-text {
+    padding: 10%;
+    text-align: center;
+}
+
+#button-top {
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    font-size: 30px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+#button-bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    margin: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
+#title {
+    font-family: titleFont;
+    font-size: 72px;
+    background-color: var(--blue);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.dollar {
+    font-size: 40px;
+    position: relative;
+    bottom: 0.4em;
+}
+
+.supsub {
+    display: inline-block;
+}
+
+.supsub sup,
+.supsub sub {
+    position: relative;
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.2;
+}
+
+.supsub sub {
+    top: 0.3em;
+}
+
+.supsub.bar sup {
+    border-bottom: 3px solid var(--yellow);
+}
